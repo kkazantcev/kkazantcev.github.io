@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Kirill Kazantcev, PhD student in Political Science at the University of Rochester.
 nav: true
 nav_order: 6
 ---
