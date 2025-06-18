@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD student | Political Science, University of Rochester
 
 profile:
   align: right
@@ -12,7 +12,7 @@ profile:
     <p><a href="mailto:kkazantc@ur.rochester.edu">kkazantc@ur.rochester.edu</a></p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items

@@ -6,19 +6,19 @@
 
 :root {
   color-scheme: light;
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
+  --global-bg-color: #{$light-warm-grey};
+  --global-code-bg-color: #{$clay-washed-beige};
+  --global-text-color: #{$neutral-dark-grey};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
-  --global-hover-text-color: #{$white-color};
+  --global-theme-color: #{$soft-clay-red};
+  --global-hover-color: #{$soft-clay-red};
+  --global-hover-text-color: #{$light-warm-grey};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
+  --global-footer-link-color: #{$light-warm-grey};
   --global-distill-app-color: #{$grey-color};
   --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
+  --global-card-bg-color: #{$light-warm-grey};
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(
     #{color.channel($black-color, "red", $space: rgb)},
@@ -74,7 +74,29 @@
     width: $back-to-top-width;
     z-index: $back-to-top-z-index;
   }
+
+  // CHATGPT EDIT
+  .highlight-box {
+    background-color: $clay-washed-beige;
+    padding: 1.5em;
+    margin-bottom: 2em;
+  }
+
+  .highlight-title {
+    border-left: 4px solid $soft-clay-red; 
+    padding-left: 10px; 
+    font-weight: bold; 
+    color: $soft-clay-red;
+  }
 }
+
+
+
+
+
+
+
+
 
 html[data-theme="dark"] {
   color-scheme: dark;
